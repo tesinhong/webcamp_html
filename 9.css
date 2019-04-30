@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+img{
+    max-width: 280px;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.main-box{
+    margin:50px auto;
+    width:960px;
+}
+.box-contents{
+    float:left;
+    width:300px;
+    padding:10px;
+    position:relative;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+.box-contents:nth-child(2){
+    margin:0 30px;
+}
+span{
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:orange;
+    color:white;
+    padding: 1px;
+}
