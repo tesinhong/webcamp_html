@@ -36,3 +36,19 @@ span{
     color:white;
     padding: 1px;
 }
+
+@media screen and (max-width:768px) {
+    .main-box{
+        width:90px;
+    }
+    .box-contents{
+        width:90px;
+        float:none;
+    }
+    .box-contents:nth-child(2){
+        width:90px;
+    }
+    .span{
+        width:90px;
+    }
+}
