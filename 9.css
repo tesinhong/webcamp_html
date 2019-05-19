@@ -22,14 +22,19 @@ main{
     position:relative;
     box-shadow: 1px 1px 1px 1px gray;
 }
-
-.1{
-    background-image: url("/img/flow01.png");
+.img{
+    background-position:center;
+    background-size:cover;
+    width:280px;
+    height:200px;
 }
-.2{
-    background-image:url("/img/flow02.png");
+.a{
+    background-image: url(./img/flow01.png);
 }
-.3{
+.b{
+    background-image:url("./img/flow02.png");
+}
+.c{
     background-image: url("img/flow03.png");
 }
 .box-contents:nth-child(2){
@@ -45,7 +50,7 @@ span{
 }
 
 @media screen and (max-width:768px) {
-    .main-box{
+    main{
         width:90%;
         margin:0 auto;
         padding:50px 0;
@@ -54,8 +59,9 @@ span{
         width:100%;
         float:none;
      }
-    img{
-        width:90%;
+    .img{
+        width:100%;
+        height:250px;
     }
     .box-contents:nth-child(2){
         margin:20px 0;
